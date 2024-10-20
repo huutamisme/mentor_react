@@ -1,0 +1,23 @@
+/* Thay đổi màu nền của dot khi nó chưa được active */
+.slick-dots li button {
+    background-color: #cccccc;
+    /* Màu nền mặc định cho các dot */
+}
+
+/* Thay đổi màu nền của dot khi nó active */
+.slick-dots li.slick-active button {
+    background-color: #1C3879;
+    /* Màu nền cho dot khi active */
+}
+
+/* Thay đổi kích thước dot nếu cần */
+.slick-dots li button:before {
+    font-size: 12px;
+    /* Kích thước của dot */
+}
+
+/* Đổi màu khi hover vào dot */
+.slick-dots li button:hover {
+    background-color: #607EAA;
+    /* Màu khi hover */
+}

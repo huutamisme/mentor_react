@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,50 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./font/EBGaramond-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  /* Phạm vi trọng lượng hỗ trợ */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Định nghĩa font EB Garamond - Italic */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./font/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  /* Phạm vi trọng lượng hỗ trợ */
+  font-style: italic;
+  font-display: swap;
+}
+
+.slick-dots {
+  background: linear-gradient(90deg, #1B397A, #3867F0);
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(90deg, #1B397A, #3867F0);
+}
+
+.border-gradient-custom {
+  border-color: linear-gradient(90deg, #1B397A, #3867F0);
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 30px rgba(255, 255, 255, 0.8),
+    0 0 40px #1c3879,
+    0 0 70px #1c3879,
+    0 0 80px #1c3879,
+    0 0 100px #1c3879,
+    0 0 150px #1c3879;
+}
+
+.text-shadow-custom {
+  text-shadow: 1px 1px 8px rgba(255, 255, 255, 1);
 }
