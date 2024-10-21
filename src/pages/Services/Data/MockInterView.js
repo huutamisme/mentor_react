@@ -73,91 +73,91 @@ export const MockInterviewData = [
             { id: 5, name: "Nguyễn Hoàng", comment: "Những chia sẻ của mentor rất thực tế và giúp tôi cải thiện đáng kể chiến lược quảng cáo.", rating: 5, date: "2 tuần trước" }
         ]
     },
-    // {
-    //     id: 4,
-    //     name: "Trần Văn Hùng",
-    //     image: "/MockInterview/TranVanHung.jpg",
-    //     career: "HR Manager",
-    //     pricing: 350000,
-    //     badges: ["5 - 10 năm", "Recruitment", "Public Relations", "Leadership"],
-    //     period: ["9:00AM", "1:00PM", "3:00PM", "6:00PM"],
-    //     about: `
-    //         Tôi là Trần Văn Hùng, một nhà quản lý nhân sự có kinh nghiệm với hơn 8 năm làm việc trong lĩnh vực tuyển dụng và phát triển nhân sự. 
-    //         Tôi đã giúp các công ty xây dựng và quản lý đội ngũ nhân sự mạnh mẽ, và phát triển văn hóa doanh nghiệp tích cực.
-    //         <strong>Tôi có thể giúp bạn:</strong>
-    //         <ul>
-    //             <li><strong>Xây dựng quy trình tuyển dụng hiệu quả:</strong> Hướng dẫn bạn từng bước trong quá trình tuyển dụng và lựa chọn nhân sự.</li>
-    //             <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Giúp bạn xây dựng kỹ năng lãnh đạo và quản lý đội nhóm thành công.</li>
-    //             <li><strong>Tư vấn về văn hóa doanh nghiệp:</strong> Hỗ trợ bạn trong việc tạo ra một môi trường làm việc tích cực và động lực cho nhân viên.</li>
-    //         </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Văn An", comment: "Mentor có cách tư vấn rất chuyên nghiệp và dễ hiểu.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Lê Thị Hồng", comment: "Tôi đã học được rất nhiều kỹ năng mới qua buổi tư vấn.", rating: 4, date: "4 ngày trước" },
-    //         { id: 3, name: "Phạm Tuấn Anh", comment: "Cảm ơn anh Hùng, buổi tư vấn rất bổ ích.", rating: 5, date: "5 ngày trước" },
-    //         { id: 4, name: "Hoàng Phương", comment: "Tôi thấy mentor có rất nhiều kinh nghiệm, rất đáng để học hỏi.", rating: 4, date: "1 tuần trước" },
-    //         { id: 5, name: "Lê Minh Đức", comment: "Anh Hùng rất nhiệt tình và chu đáo.", rating: 5, date: "1 tuần trước" },
-    //         { id: 6, name: "Trần Thị Mai", comment: "Tư vấn rất chi tiết và giúp tôi nhìn nhận rõ hơn về quy trình tuyển dụng.", rating: 5, date: "2 tuần trước" },
-    //         { id: 7, name: "Nguyễn Văn Long", comment: "Tôi đánh giá cao khả năng phân tích và sự tận tâm của anh Hùng.", rating: 5, date: "2 tuần trước" },
-    //         { id: 8, name: "Lê Thị Tuyết", comment: "Buổi tư vấn mang lại nhiều kiến thức thực tế và hữu ích.", rating: 4, date: "3 tuần trước" },
-    //         { id: 9, name: "Phạm Văn Khôi", comment: "Cảm ơn mentor đã giúp tôi cải thiện kỹ năng quản lý nhân sự.", rating: 5, date: "1 tháng trước" }
-    //     ]
-    // },
-    // {
-    //     id: 5,
-    //     name: "Nguyễn Thị Hoa",
-    //     image: "/MockInterview/NguyenThiHoa.jpg",
-    //     career: "Career Coach",
-    //     pricing: 400000,
-    //     badges: ["5 - 10 năm", "Negotiation", "Leadership", "Strategic Planning"],
-    //     period: ["6:00AM", "9:00AM", "12:00PM", "3:00PM", "6:00PM"],
-    //     about: `
-    //         Tôi là Nguyễn Thị Hoa, một Career Coach với hơn 6 năm kinh nghiệm. 
-    //         Tôi đã giúp hàng trăm khách hàng tìm ra con đường sự nghiệp phù hợp và đạt được mục tiêu nghề nghiệp của họ. 
-    //         Tôi chuyên tư vấn về kỹ năng phỏng vấn, xây dựng thương hiệu cá nhân và đàm phán.
-    //         <strong>Tôi có thể giúp bạn:</strong>
-    //         <ul>
-    //             <li><strong>Xác định mục tiêu nghề nghiệp:</strong> Hỗ trợ bạn trong việc xác định hướng đi và mục tiêu nghề nghiệp của mình.</li>
-    //             <li><strong>Luyện tập kỹ năng phỏng vấn:</strong> Cung cấp phản hồi và kỹ thuật để cải thiện khả năng phỏng vấn của bạn.</li>
-    //             <li><strong>Chiến lược đàm phán lương:</strong> Giúp bạn xây dựng kỹ năng đàm phán và đạt được mức lương mong muốn.</li>
-    //         </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Thị Lan", comment: "Chị Hoa đã giúp tôi rất nhiều trong việc xác định mục tiêu nghề nghiệp.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Lê Văn Khoa", comment: "Tôi rất hài lòng với buổi tư vấn của chị Hoa.", rating: 5, date: "3 ngày trước" },
-    //         { id: 3, name: "Trần Thị Mai", comment: "Rất hữu ích, giúp tôi cải thiện đáng kể kỹ năng phỏng vấn.", rating: 5, date: "5 ngày trước" },
-    //         { id: 4, name: "Phạm Văn Minh", comment: "Buổi tư vấn rất chuyên nghiệp và rõ ràng.", rating: 4, date: "1 tuần trước" },
-    //         { id: 5, name: "Lê Thị Hương", comment: "Cảm ơn chị Hoa rất nhiều, buổi tư vấn đã thay đổi cách nhìn của tôi về sự nghiệp.", rating: 5, date: "1 tuần trước" },
-    //         { id: 6, name: "Nguyễn Thị Oanh", comment: "Những góp ý của mentor đã giúp tôi chuẩn bị tốt hơn cho buổi phỏng vấn sắp tới.", rating: 5, date: "2 tuần trước" },
-    //         { id: 7, name: "Nguyễn Văn Hùng", comment: "Buổi tư vấn đã giúp tôi hiểu rõ hơn về việc đàm phán lương.", rating: 4, date: "2 tuần trước" }
-    //     ]
-    // },
-    // {
-    //     id: 6,
-    //     name: "Phạm Quốc Anh",
-    //     image: "/MockInterview/PhamQuocAnh.jpg",
-    //     career: "Senior HR Executive",
-    //     pricing: 300000,
-    //     badges: ["3 - 5 năm", "Recruitment", "Project Management", "Public Relations"],
-    //     period: ["9:00AM", "2:00PM", "5:00PM"],
-    //     about: `
-    //         Tôi là Phạm Quốc Anh, một Senior HR Executive với 5 năm kinh nghiệm trong lĩnh vực quản lý nhân sự và phát triển đội ngũ. 
-    //         Tôi đã có cơ hội làm việc với nhiều công ty lớn và giúp họ tối ưu hóa quy trình tuyển dụng và phát triển nhân viên. 
-    //         <strong>Tôi có thể giúp bạn:</strong>
-    //         <ul>
-    //             <li><strong>Tối ưu hóa quy trình tuyển dụng:</strong> Hướng dẫn bạn cách cải thiện hiệu quả tuyển dụng và tìm kiếm nhân sự phù hợp.</li>
-    //             <li><strong>Quản lý dự án nhân sự:</strong> Hỗ trợ bạn trong việc triển khai và quản lý các dự án liên quan đến nhân sự.</li>
-    //             <li><strong>Xây dựng kỹ năng giao tiếp hiệu quả:</strong> Cung cấp những mẹo để cải thiện khả năng giao tiếp với đồng nghiệp và cấp trên.</li>
-    //         </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Lê Văn Bảo", comment: "Mentor đã giúp tôi rất nhiều trong việc tối ưu quy trình tuyển dụng.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Nguyễn Thị Phương", comment: "Rất nhiều kiến thức hữu ích, cảm ơn anh Quốc Anh.", rating: 5, date: "3 ngày trước" },
-    //         { id: 3, name: "Phạm Thị Hồng", comment: "Anh Quốc Anh rất nhiệt tình và chuyên nghiệp.", rating: 4, date: "5 ngày trước" },
-    //         { id: 4, name: "Trần Văn Tài", comment: "Tôi học được nhiều kỹ năng từ buổi tư vấn.", rating: 5, date: "1 tuần trước" },
-    //         { id: 5, name: "Nguyễn Thị Thu", comment: "Cảm ơn anh Quốc Anh, buổi học rất bổ ích.", rating: 4, date: "1 tuần trước" },
-    //         { id: 6, name: "Lê Minh Tuấn", comment: "Buổi tư vấn đã giúp tôi cải thiện kỹ năng giao tiếp đáng kể.", rating: 5, date: "2 tuần trước" },
-    //         { id: 7, name: "Hoàng Văn Trung", comment: "Mentor rất chu đáo và có nhiều kinh nghiệm trong quản lý nhân sự.", rating: 5, date: "2 tuần trước" },
-    //         { id: 8, name: "Phạm Văn Khánh", comment: "Cảm ơn anh Quốc Anh vì những chia sẻ rất thực tế.", rating: 5, date: "2 tuần trước" },
-    //         { id: 9, name: "Nguyễn Thị Vân", comment: "Anh Quốc Anh đã giúp tôi cải thiện kỹ năng quản lý dự án.", rating: 5, date: "3 tuần trước" },
-    //         { id: 10, name: "Lê Thị Hà", comment: "Buổi tư vấn thực sự rất hữu ích.", rating: 4, date: "3 tuần trước" }
-    //     ]
-    // }
+    {
+        id: 4,
+        name: "Trần Văn Hùng",
+        image: "/MockInterview/TranVanHung.jpg",
+        career: "HR Manager",
+        pricing: 350000,
+        badges: ["5 - 10 năm", "Recruitment", "Public Relations", "Leadership"],
+        period: ["9:00AM", "1:00PM", "3:00PM", "6:00PM"],
+        about: `
+            Tôi là Trần Văn Hùng, một nhà quản lý nhân sự có kinh nghiệm với hơn 8 năm làm việc trong lĩnh vực tuyển dụng và phát triển nhân sự. 
+            Tôi đã giúp các công ty xây dựng và quản lý đội ngũ nhân sự mạnh mẽ, và phát triển văn hóa doanh nghiệp tích cực.
+            <strong>Tôi có thể giúp bạn:</strong>
+            <ul>
+                <li><strong>Xây dựng quy trình tuyển dụng hiệu quả:</strong> Hướng dẫn bạn từng bước trong quá trình tuyển dụng và lựa chọn nhân sự.</li>
+                <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Giúp bạn xây dựng kỹ năng lãnh đạo và quản lý đội nhóm thành công.</li>
+                <li><strong>Tư vấn về văn hóa doanh nghiệp:</strong> Hỗ trợ bạn trong việc tạo ra một môi trường làm việc tích cực và động lực cho nhân viên.</li>
+            </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Văn An", comment: "Mentor có cách tư vấn rất chuyên nghiệp và dễ hiểu.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Lê Thị Hồng", comment: "Tôi đã học được rất nhiều kỹ năng mới qua buổi tư vấn.", rating: 4, date: "4 ngày trước" },
+            { id: 3, name: "Phạm Tuấn Anh", comment: "Cảm ơn anh Hùng, buổi tư vấn rất bổ ích.", rating: 5, date: "5 ngày trước" },
+            { id: 4, name: "Hoàng Phương", comment: "Tôi thấy mentor có rất nhiều kinh nghiệm, rất đáng để học hỏi.", rating: 4, date: "1 tuần trước" },
+            { id: 5, name: "Lê Minh Đức", comment: "Anh Hùng rất nhiệt tình và chu đáo.", rating: 5, date: "1 tuần trước" },
+            { id: 6, name: "Trần Thị Mai", comment: "Tư vấn rất chi tiết và giúp tôi nhìn nhận rõ hơn về quy trình tuyển dụng.", rating: 5, date: "2 tuần trước" },
+            { id: 7, name: "Nguyễn Văn Long", comment: "Tôi đánh giá cao khả năng phân tích và sự tận tâm của anh Hùng.", rating: 5, date: "2 tuần trước" },
+            { id: 8, name: "Lê Thị Tuyết", comment: "Buổi tư vấn mang lại nhiều kiến thức thực tế và hữu ích.", rating: 4, date: "3 tuần trước" },
+            { id: 9, name: "Phạm Văn Khôi", comment: "Cảm ơn mentor đã giúp tôi cải thiện kỹ năng quản lý nhân sự.", rating: 5, date: "1 tháng trước" }
+        ]
+    },
+    {
+        id: 5,
+        name: "Nguyễn Thị Hoa",
+        image: "/MockInterview/NguyenThiHoa.jpg",
+        career: "Career Coach",
+        pricing: 400000,
+        badges: ["5 - 10 năm", "Negotiation", "Leadership", "Strategic Planning"],
+        period: ["6:00AM", "9:00AM", "12:00PM", "3:00PM", "6:00PM"],
+        about: `
+            Tôi là Nguyễn Thị Hoa, một Career Coach với hơn 6 năm kinh nghiệm. 
+            Tôi đã giúp hàng trăm khách hàng tìm ra con đường sự nghiệp phù hợp và đạt được mục tiêu nghề nghiệp của họ. 
+            Tôi chuyên tư vấn về kỹ năng phỏng vấn, xây dựng thương hiệu cá nhân và đàm phán.
+            <strong>Tôi có thể giúp bạn:</strong>
+            <ul>
+                <li><strong>Xác định mục tiêu nghề nghiệp:</strong> Hỗ trợ bạn trong việc xác định hướng đi và mục tiêu nghề nghiệp của mình.</li>
+                <li><strong>Luyện tập kỹ năng phỏng vấn:</strong> Cung cấp phản hồi và kỹ thuật để cải thiện khả năng phỏng vấn của bạn.</li>
+                <li><strong>Chiến lược đàm phán lương:</strong> Giúp bạn xây dựng kỹ năng đàm phán và đạt được mức lương mong muốn.</li>
+            </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Thị Lan", comment: "Chị Hoa đã giúp tôi rất nhiều trong việc xác định mục tiêu nghề nghiệp.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Lê Văn Khoa", comment: "Tôi rất hài lòng với buổi tư vấn của chị Hoa.", rating: 5, date: "3 ngày trước" },
+            { id: 3, name: "Trần Thị Mai", comment: "Rất hữu ích, giúp tôi cải thiện đáng kể kỹ năng phỏng vấn.", rating: 5, date: "5 ngày trước" },
+            { id: 4, name: "Phạm Văn Minh", comment: "Buổi tư vấn rất chuyên nghiệp và rõ ràng.", rating: 4, date: "1 tuần trước" },
+            { id: 5, name: "Lê Thị Hương", comment: "Cảm ơn chị Hoa rất nhiều, buổi tư vấn đã thay đổi cách nhìn của tôi về sự nghiệp.", rating: 5, date: "1 tuần trước" },
+            { id: 6, name: "Nguyễn Thị Oanh", comment: "Những góp ý của mentor đã giúp tôi chuẩn bị tốt hơn cho buổi phỏng vấn sắp tới.", rating: 5, date: "2 tuần trước" },
+            { id: 7, name: "Nguyễn Văn Hùng", comment: "Buổi tư vấn đã giúp tôi hiểu rõ hơn về việc đàm phán lương.", rating: 4, date: "2 tuần trước" }
+        ]
+    },
+    {
+        id: 6,
+        name: "Phạm Quốc Anh",
+        image: "/MockInterview/PhamQuocAnh.jpg",
+        career: "Senior HR Executive",
+        pricing: 300000,
+        badges: ["3 - 5 năm", "Recruitment", "Project Management", "Public Relations"],
+        period: ["9:00AM", "2:00PM", "5:00PM"],
+        about: `
+            Tôi là Phạm Quốc Anh, một Senior HR Executive với 5 năm kinh nghiệm trong lĩnh vực quản lý nhân sự và phát triển đội ngũ. 
+            Tôi đã có cơ hội làm việc với nhiều công ty lớn và giúp họ tối ưu hóa quy trình tuyển dụng và phát triển nhân viên. 
+            <strong>Tôi có thể giúp bạn:</strong>
+            <ul>
+                <li><strong>Tối ưu hóa quy trình tuyển dụng:</strong> Hướng dẫn bạn cách cải thiện hiệu quả tuyển dụng và tìm kiếm nhân sự phù hợp.</li>
+                <li><strong>Quản lý dự án nhân sự:</strong> Hỗ trợ bạn trong việc triển khai và quản lý các dự án liên quan đến nhân sự.</li>
+                <li><strong>Xây dựng kỹ năng giao tiếp hiệu quả:</strong> Cung cấp những mẹo để cải thiện khả năng giao tiếp với đồng nghiệp và cấp trên.</li>
+            </ul>`,
+        reviews: [
+            { id: 1, name: "Lê Văn Bảo", comment: "Mentor đã giúp tôi rất nhiều trong việc tối ưu quy trình tuyển dụng.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Nguyễn Thị Phương", comment: "Rất nhiều kiến thức hữu ích, cảm ơn anh Quốc Anh.", rating: 5, date: "3 ngày trước" },
+            { id: 3, name: "Phạm Thị Hồng", comment: "Anh Quốc Anh rất nhiệt tình và chuyên nghiệp.", rating: 4, date: "5 ngày trước" },
+            { id: 4, name: "Trần Văn Tài", comment: "Tôi học được nhiều kỹ năng từ buổi tư vấn.", rating: 5, date: "1 tuần trước" },
+            { id: 5, name: "Nguyễn Thị Thu", comment: "Cảm ơn anh Quốc Anh, buổi học rất bổ ích.", rating: 4, date: "1 tuần trước" },
+            { id: 6, name: "Lê Minh Tuấn", comment: "Buổi tư vấn đã giúp tôi cải thiện kỹ năng giao tiếp đáng kể.", rating: 5, date: "2 tuần trước" },
+            { id: 7, name: "Hoàng Văn Trung", comment: "Mentor rất chu đáo và có nhiều kinh nghiệm trong quản lý nhân sự.", rating: 5, date: "2 tuần trước" },
+            { id: 8, name: "Phạm Văn Khánh", comment: "Cảm ơn anh Quốc Anh vì những chia sẻ rất thực tế.", rating: 5, date: "2 tuần trước" },
+            { id: 9, name: "Nguyễn Thị Vân", comment: "Anh Quốc Anh đã giúp tôi cải thiện kỹ năng quản lý dự án.", rating: 5, date: "3 tuần trước" },
+            { id: 10, name: "Lê Thị Hà", comment: "Buổi tư vấn thực sự rất hữu ích.", rating: 4, date: "3 tuần trước" }
+        ]
+    }
 ];

@@ -95,84 +95,84 @@ export const ProjectAdviseData = [
             { id: 8, name: "Phạm Văn Tuấn", comment: "Chị Châu có cái nhìn rất sắc bén về truyền thông trên mạng xã hội.", rating: 5, date: "2 tháng trước" }
         ]
     },
-    // {
-    //     id: 4,
-    //     name: "Phạm Văn Lâm",
-    //     image: "/ProjectAdvise/PhamVanLam.jpg",
-    //     career: "Project Manager",
-    //     pricing: 550000,
-    //     badges: ["10+ năm", "Project Management", "Leadership", "Strategic Planning"],
-    //     period: ["9:00AM", "12:00PM", "3:00PM"],
-    //     about: `
-    // Tôi là Phạm Văn Lâm, một chuyên gia quản lý dự án với hơn 10 năm kinh nghiệm trong việc triển khai và quản lý các dự án lớn tại nhiều lĩnh vực khác nhau. 
-    // Với khả năng lãnh đạo và tư duy chiến lược, tôi đã giúp nhiều doanh nghiệp hoàn thành các dự án đúng hạn và đạt được kết quả mong muốn. 
-    // <strong>Tôi có thể giúp bạn:</strong>
-    // <ul>
-    //     <li><strong>Lập kế hoạch dự án:</strong> Hướng dẫn bạn cách xây dựng kế hoạch dự án chi tiết từ mục tiêu đến tiến độ thực hiện.</li>
-    //     <li><strong>Quản lý đội nhóm hiệu quả:</strong> Chia sẻ kinh nghiệm trong việc xây dựng và phát triển đội ngũ, tăng cường sự hợp tác và tối ưu hóa hiệu suất.</li>
-    //     <li><strong>Đánh giá và điều chỉnh dự án:</strong> Giúp bạn phát hiện và xử lý kịp thời các vấn đề phát sinh trong quá trình thực hiện dự án.</li>
-    // </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Văn Hải", comment: "Anh Lâm là một chuyên gia rất giỏi về quản lý dự án.", rating: 5, date: "3 ngày trước" },
-    //         { id: 2, name: "Phạm Thị Hoa", comment: "Tôi rất hài lòng với cách anh ấy hướng dẫn lập kế hoạch dự án.", rating: 5, date: "1 tuần trước" },
-    //         { id: 3, name: "Lê Văn Duy", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về cách quản lý đội nhóm.", rating: 4, date: "2 tuần trước" },
-    //         { id: 4, name: "Trần Thị Hà", comment: "Anh Lâm rất tận tâm và chi tiết trong việc tư vấn chiến lược quản lý.", rating: 5, date: "1 tháng trước" },
-    //         { id: 5, name: "Nguyễn Văn Tài", comment: "Tôi đã học được nhiều kinh nghiệm từ anh Lâm về đánh giá dự án.", rating: 5, date: "1 tháng trước" },
-    //         { id: 6, name: "Phạm Văn An", comment: "Anh Lâm là một người có kinh nghiệm sâu rộng về quản lý dự án.", rating: 5, date: "2 tháng trước" }
-    //     ]
-    // },
-    // {
-    //     id: 5,
-    //     name: "Vũ Ngọc Khánh",
-    //     image: "/ProjectAdvise/VuNgocKhanh.jpg",
-    //     career: "Project Consultant",
-    //     pricing: 500000,
-    //     badges: ["5 - 10 năm", "Project Management", "Market Research", "Analytics"],
-    //     period: ["7:00AM", "10:00AM", "1:00PM", "4:00PM"],
-    //     about: `
-    // Tôi là Vũ Ngọc Khánh, chuyên gia tư vấn dự án với hơn 7 năm kinh nghiệm trong lĩnh vực quản lý dự án và nghiên cứu thị trường. 
-    // Tôi đã giúp đỡ nhiều công ty tối ưu hóa quy trình dự án và đạt được mục tiêu kinh doanh của họ thông qua phân tích thị trường sâu sắc và các chiến lược hiệu quả.
-    // <strong>Tôi có thể giúp bạn:</strong>
-    // <ul>
-    //     <li><strong>Nghiên cứu thị trường:</strong> Hỗ trợ bạn phân tích thị trường để tìm ra cơ hội và thách thức trong dự án của bạn.</li>
-    //     <li><strong>Quản lý dự án:</strong> Cung cấp các công cụ và kỹ thuật để quản lý dự án một cách hiệu quả, đảm bảo mọi thứ diễn ra suôn sẻ.</li>
-    //     <li><strong>Tối ưu hóa quy trình:</strong> Chia sẻ kinh nghiệm trong việc cải tiến quy trình làm việc, giảm thiểu lãng phí và tối ưu hóa tài nguyên.</li>
-    // </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Thị Huyền", comment: "Anh Khánh tư vấn rất chi tiết và có tầm nhìn sâu sắc về nghiên cứu thị trường.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Phạm Văn Dũng", comment: "Những lời khuyên của anh ấy về quản lý dự án thực sự hữu ích.", rating: 4, date: "1 tuần trước" },
-    //         { id: 3, name: "Lê Thị Lan", comment: "Anh Khánh có nhiều kinh nghiệm trong việc tối ưu hóa quy trình làm việc.", rating: 5, date: "2 tuần trước" },
-    //         { id: 4, name: "Nguyễn Văn Tùng", comment: "Tôi đã học được nhiều điều từ buổi tư vấn về phân tích thị trường của anh ấy.", rating: 5, date: "3 tuần trước" },
-    //         { id: 5, name: "Trần Thị Mai", comment: "Anh Khánh đã giúp tôi rất nhiều trong việc nghiên cứu thị trường cho dự án của mình.", rating: 4, date: "1 tháng trước" }
-    //     ]
-    // },
-    // {
-    //     id: 6,
-    //     name: "Nguyễn Thị Tâm",
-    //     image: "/ProjectAdvise/NguyenThiTam.jpg",
-    //     career: "Business Analyst",
-    //     pricing: 450000,
-    //     badges: ["5 - 10 năm", "Analytics", "Strategic Planning", "Leadership"],
-    //     period: ["8:00AM", "11:00AM", "2:00PM", "5:00PM"],
-    //     about: `
-    // Tôi là Nguyễn Thị Tâm, một Business Analyst với hơn 8 năm kinh nghiệm trong việc phân tích dữ liệu và lập kế hoạch chiến lược cho các doanh nghiệp. 
-    // Tôi đã làm việc với nhiều ngành nghề khác nhau và có khả năng giúp doanh nghiệp tối ưu hóa quy trình thông qua phân tích và đánh giá hiệu quả. 
-    // <strong>Tôi có thể giúp bạn:</strong>
-    // <ul>
-    //     <li><strong>Phân tích dữ liệu:</strong> Hướng dẫn bạn cách thu thập, phân tích và diễn giải dữ liệu để đưa ra quyết định kinh doanh thông minh.</li>
-    //     <li><strong>Lập kế hoạch chiến lược:</strong> Giúp bạn xây dựng kế hoạch chiến lược dựa trên phân tích dữ liệu và xu hướng thị trường.</li>
-    //     <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Chia sẻ những kinh nghiệm trong việc quản lý đội nhóm và lãnh đạo dự án để bạn có thể phát triển bản thân hơn nữa.</li>
-    // </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Thị Bích", comment: "Chị Tâm có kinh nghiệm rất sâu sắc trong phân tích dữ liệu.", rating: 5, date: "1 ngày trước" },
-    //         { id: 2, name: "Phạm Văn Hưng", comment: "Tôi rất hài lòng với sự tư vấn về lập kế hoạch chiến lược của chị Tâm.", rating: 5, date: "1 tuần trước" },
-    //         { id: 3, name: "Lê Thị Hạnh", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về phân tích hiệu quả hoạt động doanh nghiệp.", rating: 4, date: "2 tuần trước" },
-    //         { id: 4, name: "Nguyễn Văn Tú", comment: "Chị ấy rất chuyên nghiệp trong việc hướng dẫn phân tích dữ liệu.", rating: 5, date: "3 tuần trước" },
-    //         { id: 5, name: "Phạm Thị Hiền", comment: "Tôi đã học được nhiều điều hữu ích về lập kế hoạch chiến lược từ chị Tâm.", rating: 5, date: "1 tháng trước" },
-    //         { id: 6, name: "Nguyễn Văn Khánh", comment: "Chị Tâm rất nhiệt tình và chia sẻ nhiều kinh nghiệm quý báu.", rating: 5, date: "1 tháng trước" },
-    //         { id: 7, name: "Lê Thị Ngọc", comment: "Buổi tư vấn của chị ấy rất giá trị và giúp tôi phát triển kỹ năng lãnh đạo.", rating: 4, date: "1 tháng trước" },
-    //         { id: 8, name: "Nguyễn Văn Hùng", comment: "Chị Tâm có kinh nghiệm sâu rộng về phân tích dữ liệu và tối ưu hóa quy trình.", rating: 5, date: "2 tháng trước" },
-    //         { id: 9, name: "Phạm Văn Tuấn", comment: "Cảm ơn chị Tâm đã tư vấn rất chi tiết về lập kế hoạch chiến lược.", rating: 5, date: "2 tháng trước" }
-    //     ]
-    // }
+    {
+        id: 4,
+        name: "Phạm Văn Lâm",
+        image: "/ProjectAdvise/PhamVanLam.jpg",
+        career: "Project Manager",
+        pricing: 550000,
+        badges: ["10+ năm", "Project Management", "Leadership", "Strategic Planning"],
+        period: ["9:00AM", "12:00PM", "3:00PM"],
+        about: `
+    Tôi là Phạm Văn Lâm, một chuyên gia quản lý dự án với hơn 10 năm kinh nghiệm trong việc triển khai và quản lý các dự án lớn tại nhiều lĩnh vực khác nhau. 
+    Với khả năng lãnh đạo và tư duy chiến lược, tôi đã giúp nhiều doanh nghiệp hoàn thành các dự án đúng hạn và đạt được kết quả mong muốn. 
+    <strong>Tôi có thể giúp bạn:</strong>
+    <ul>
+        <li><strong>Lập kế hoạch dự án:</strong> Hướng dẫn bạn cách xây dựng kế hoạch dự án chi tiết từ mục tiêu đến tiến độ thực hiện.</li>
+        <li><strong>Quản lý đội nhóm hiệu quả:</strong> Chia sẻ kinh nghiệm trong việc xây dựng và phát triển đội ngũ, tăng cường sự hợp tác và tối ưu hóa hiệu suất.</li>
+        <li><strong>Đánh giá và điều chỉnh dự án:</strong> Giúp bạn phát hiện và xử lý kịp thời các vấn đề phát sinh trong quá trình thực hiện dự án.</li>
+    </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Văn Hải", comment: "Anh Lâm là một chuyên gia rất giỏi về quản lý dự án.", rating: 5, date: "3 ngày trước" },
+            { id: 2, name: "Phạm Thị Hoa", comment: "Tôi rất hài lòng với cách anh ấy hướng dẫn lập kế hoạch dự án.", rating: 5, date: "1 tuần trước" },
+            { id: 3, name: "Lê Văn Duy", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về cách quản lý đội nhóm.", rating: 4, date: "2 tuần trước" },
+            { id: 4, name: "Trần Thị Hà", comment: "Anh Lâm rất tận tâm và chi tiết trong việc tư vấn chiến lược quản lý.", rating: 5, date: "1 tháng trước" },
+            { id: 5, name: "Nguyễn Văn Tài", comment: "Tôi đã học được nhiều kinh nghiệm từ anh Lâm về đánh giá dự án.", rating: 5, date: "1 tháng trước" },
+            { id: 6, name: "Phạm Văn An", comment: "Anh Lâm là một người có kinh nghiệm sâu rộng về quản lý dự án.", rating: 5, date: "2 tháng trước" }
+        ]
+    },
+    {
+        id: 5,
+        name: "Vũ Ngọc Khánh",
+        image: "/ProjectAdvise/VuNgocKhanh.jpg",
+        career: "Project Consultant",
+        pricing: 500000,
+        badges: ["5 - 10 năm", "Project Management", "Market Research", "Analytics"],
+        period: ["7:00AM", "10:00AM", "1:00PM", "4:00PM"],
+        about: `
+    Tôi là Vũ Ngọc Khánh, chuyên gia tư vấn dự án với hơn 7 năm kinh nghiệm trong lĩnh vực quản lý dự án và nghiên cứu thị trường. 
+    Tôi đã giúp đỡ nhiều công ty tối ưu hóa quy trình dự án và đạt được mục tiêu kinh doanh của họ thông qua phân tích thị trường sâu sắc và các chiến lược hiệu quả.
+    <strong>Tôi có thể giúp bạn:</strong>
+    <ul>
+        <li><strong>Nghiên cứu thị trường:</strong> Hỗ trợ bạn phân tích thị trường để tìm ra cơ hội và thách thức trong dự án của bạn.</li>
+        <li><strong>Quản lý dự án:</strong> Cung cấp các công cụ và kỹ thuật để quản lý dự án một cách hiệu quả, đảm bảo mọi thứ diễn ra suôn sẻ.</li>
+        <li><strong>Tối ưu hóa quy trình:</strong> Chia sẻ kinh nghiệm trong việc cải tiến quy trình làm việc, giảm thiểu lãng phí và tối ưu hóa tài nguyên.</li>
+    </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Thị Huyền", comment: "Anh Khánh tư vấn rất chi tiết và có tầm nhìn sâu sắc về nghiên cứu thị trường.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Phạm Văn Dũng", comment: "Những lời khuyên của anh ấy về quản lý dự án thực sự hữu ích.", rating: 4, date: "1 tuần trước" },
+            { id: 3, name: "Lê Thị Lan", comment: "Anh Khánh có nhiều kinh nghiệm trong việc tối ưu hóa quy trình làm việc.", rating: 5, date: "2 tuần trước" },
+            { id: 4, name: "Nguyễn Văn Tùng", comment: "Tôi đã học được nhiều điều từ buổi tư vấn về phân tích thị trường của anh ấy.", rating: 5, date: "3 tuần trước" },
+            { id: 5, name: "Trần Thị Mai", comment: "Anh Khánh đã giúp tôi rất nhiều trong việc nghiên cứu thị trường cho dự án của mình.", rating: 4, date: "1 tháng trước" }
+        ]
+    },
+    {
+        id: 6,
+        name: "Nguyễn Thị Tâm",
+        image: "/ProjectAdvise/NguyenThiTam.jpg",
+        career: "Business Analyst",
+        pricing: 450000,
+        badges: ["5 - 10 năm", "Analytics", "Strategic Planning", "Leadership"],
+        period: ["8:00AM", "11:00AM", "2:00PM", "5:00PM"],
+        about: `
+    Tôi là Nguyễn Thị Tâm, một Business Analyst với hơn 8 năm kinh nghiệm trong việc phân tích dữ liệu và lập kế hoạch chiến lược cho các doanh nghiệp. 
+    Tôi đã làm việc với nhiều ngành nghề khác nhau và có khả năng giúp doanh nghiệp tối ưu hóa quy trình thông qua phân tích và đánh giá hiệu quả. 
+    <strong>Tôi có thể giúp bạn:</strong>
+    <ul>
+        <li><strong>Phân tích dữ liệu:</strong> Hướng dẫn bạn cách thu thập, phân tích và diễn giải dữ liệu để đưa ra quyết định kinh doanh thông minh.</li>
+        <li><strong>Lập kế hoạch chiến lược:</strong> Giúp bạn xây dựng kế hoạch chiến lược dựa trên phân tích dữ liệu và xu hướng thị trường.</li>
+        <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Chia sẻ những kinh nghiệm trong việc quản lý đội nhóm và lãnh đạo dự án để bạn có thể phát triển bản thân hơn nữa.</li>
+    </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Thị Bích", comment: "Chị Tâm có kinh nghiệm rất sâu sắc trong phân tích dữ liệu.", rating: 5, date: "1 ngày trước" },
+            { id: 2, name: "Phạm Văn Hưng", comment: "Tôi rất hài lòng với sự tư vấn về lập kế hoạch chiến lược của chị Tâm.", rating: 5, date: "1 tuần trước" },
+            { id: 3, name: "Lê Thị Hạnh", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về phân tích hiệu quả hoạt động doanh nghiệp.", rating: 4, date: "2 tuần trước" },
+            { id: 4, name: "Nguyễn Văn Tú", comment: "Chị ấy rất chuyên nghiệp trong việc hướng dẫn phân tích dữ liệu.", rating: 5, date: "3 tuần trước" },
+            { id: 5, name: "Phạm Thị Hiền", comment: "Tôi đã học được nhiều điều hữu ích về lập kế hoạch chiến lược từ chị Tâm.", rating: 5, date: "1 tháng trước" },
+            { id: 6, name: "Nguyễn Văn Khánh", comment: "Chị Tâm rất nhiệt tình và chia sẻ nhiều kinh nghiệm quý báu.", rating: 5, date: "1 tháng trước" },
+            { id: 7, name: "Lê Thị Ngọc", comment: "Buổi tư vấn của chị ấy rất giá trị và giúp tôi phát triển kỹ năng lãnh đạo.", rating: 4, date: "1 tháng trước" },
+            { id: 8, name: "Nguyễn Văn Hùng", comment: "Chị Tâm có kinh nghiệm sâu rộng về phân tích dữ liệu và tối ưu hóa quy trình.", rating: 5, date: "2 tháng trước" },
+            { id: 9, name: "Phạm Văn Tuấn", comment: "Cảm ơn chị Tâm đã tư vấn rất chi tiết về lập kế hoạch chiến lược.", rating: 5, date: "2 tháng trước" }
+        ]
+    }
 ];

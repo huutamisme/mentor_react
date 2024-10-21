@@ -94,91 +94,91 @@ export const CareerAdviseData = [
             { id: 7, name: "Lê Minh Tú", comment: "Mentor rất chu đáo và có kiến thức chuyên sâu.", rating: 4, date: "1 tháng trước" }
         ]
     },
-    // {
-    //     id: 4,
-    //     name: "Lê Thị Ngọc",
-    //     image: "/CareerAdvise/LeThiNgoc.jpg",
-    //     career: "Career Consultant",
-    //     pricing: 450000,
-    //     badges: ["5 - 10 năm", "Market Research", "Strategic Planning", "Leadership"],
-    //     period: ["7:00AM", "10:00AM", "1:00PM", "4:00PM"],
-    //     about: `
-    //     Tôi là Lê Thị Ngọc, một tư vấn viên nghề nghiệp với hơn 6 năm kinh nghiệm trong việc giúp đỡ các bạn trẻ và những người đang tìm kiếm cơ hội nghề nghiệp. 
-    //     Tôi đã hỗ trợ nhiều người xây dựng sự nghiệp bền vững thông qua các chiến lược hiệu quả. 
-    //     Tôi tin rằng mỗi người đều có tiềm năng riêng và tôi ở đây để giúp bạn khai thác nó. 
-    //     <strong>Tôi có thể giúp bạn:</strong>
-    //     <ul>
-    //         <li><strong>Xác định mục tiêu nghề nghiệp:</strong> Giúp bạn khám phá và định hình những mục tiêu nghề nghiệp phù hợp với sở thích và kỹ năng của bạn.</li>
-    //         <li><strong>Chuẩn bị cho phỏng vấn:</strong> Hướng dẫn bạn cách thể hiện tốt nhất trong phỏng vấn, từ việc chuẩn bị hồ sơ đến cách giao tiếp tự tin.</li>
-    //         <li><strong>Xây dựng mạng lưới quan hệ:</strong> Tư vấn về cách tạo dựng và duy trì các mối quan hệ nghề nghiệp có giá trị.</li>
-    //     </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Văn Tuấn", comment: "Chị Ngọc rất nhiệt tình và hỗ trợ chu đáo trong buổi tư vấn.", rating: 5, date: "1 ngày trước" },
-    //         { id: 2, name: "Trần Thị Hà", comment: "Những lời khuyên của chị Ngọc giúp tôi rất nhiều trong việc xác định mục tiêu nghề nghiệp.", rating: 5, date: "3 ngày trước" },
-    //         { id: 3, name: "Nguyễn Văn Dũng", comment: "Mentor rất tận tình và chuyên nghiệp.", rating: 5, date: "5 ngày trước" },
-    //         { id: 4, name: "Phạm Văn An", comment: "Tư vấn của chị Ngọc mang lại nhiều giá trị cho sự nghiệp của tôi.", rating: 4, date: "1 tuần trước" },
-    //         { id: 5, name: "Lê Thị Hồng", comment: "Tôi đã học được rất nhiều về cách xây dựng mạng lưới quan hệ.", rating: 5, date: "2 tuần trước" },
-    //         { id: 6, name: "Nguyễn Văn Tú", comment: "Chị Ngọc giúp tôi tự tin hơn trong việc phát triển sự nghiệp.", rating: 5, date: "3 tuần trước" },
-    //         { id: 7, name: "Trần Vân", comment: "Buổi tư vấn rất hữu ích, cảm ơn chị Ngọc.", rating: 4, date: "4 tuần trước" },
-    //         { id: 8, name: "Lê Thị Phương", comment: "Mentor rất chu đáo và có kiến thức sâu rộng.", rating: 5, date: "1 tháng trước" },
-    //         { id: 9, name: "Nguyễn Văn Hùng", comment: "Chị Ngọc chia sẻ nhiều kinh nghiệm quý báu về phát triển sự nghiệp.", rating: 5, date: "1 tháng trước" }
-    //     ]
-    // },
-    // {
-    //     id: 5,
-    //     name: "Đỗ Minh Phương",
-    //     image: "/CareerAdvise/DoMinhPhuong.jpg",
-    //     career: "HR Consultant",
-    //     pricing: 500000,
-    //     badges: ["10+ năm", "Recruitment", "Negotiation", "Leadership"],
-    //     period: ["10:00AM", "1:00PM", "4:00PM", "7:00PM"],
-    //     about: `
-    //     Tôi là Đỗ Minh Phương, một tư vấn viên nhân sự với hơn 10 năm kinh nghiệm làm việc tại nhiều công ty lớn. 
-    //     Tôi chuyên về tuyển dụng và đàm phán, giúp các công ty xây dựng đội ngũ nhân sự chất lượng và hiệu quả. 
-    //     Tôi tin rằng nhân sự là tài sản quý giá nhất của một tổ chức và tôi ở đây để giúp bạn tìm kiếm và phát triển những tài năng này. 
-    //     <strong>Tôi có thể giúp bạn:</strong>
-    //     <ul>
-    //         <li><strong>Tuyển dụng hiệu quả:</strong> Hướng dẫn bạn về các phương pháp tuyển dụng tiên tiến để thu hút những ứng viên tốt nhất.</li>
-    //         <li><strong>Đàm phán lương và quyền lợi:</strong> Cung cấp những bí quyết để bạn có thể đàm phán một cách tự tin và hiệu quả.</li>
-    //         <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Chia sẻ những kiến thức và kinh nghiệm trong việc lãnh đạo và phát triển đội ngũ.</li>
-    //     </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Văn Hải", comment: "Anh Phương có rất nhiều kinh nghiệm trong lĩnh vực nhân sự.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Trần Minh Quân", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về quy trình tuyển dụng.", rating: 5, date: "1 tuần trước" },
-    //         { id: 3, name: "Phạm Thị Hồng", comment: "Mentor rất tận tình và chuyên nghiệp.", rating: 4, date: "2 tuần trước" },
-    //         { id: 4, name: "Lê Văn Duy", comment: "Anh Phương đã giúp tôi phát triển kỹ năng đàm phán.", rating: 5, date: "3 tuần trước" },
-    //         { id: 5, name: "Nguyễn Thị Thu", comment: "Buổi tư vấn rất bổ ích, cảm ơn anh Phương.", rating: 5, date: "1 tháng trước" }
-    //     ]
-    // },
-    // {
-    //     id: 6,
-    //     name: "Ngô Văn Đức",
-    //     image: "/CareerAdvise/NgoVanDuc.jpg",
-    //     career: "Job Counselor",
-    //     pricing: 400000,
-    //     badges: ["3 - 5 năm", "Leadership", "Project Management", "Public Relations"],
-    //     period: ["8:00AM", "11:00AM", "2:00PM", "5:00PM"],
-    //     about: `
-    //     Tôi là Ngô Văn Đức, một tư vấn viên việc làm với 4 năm kinh nghiệm trong việc hỗ trợ các ứng viên tìm kiếm việc làm phù hợp. 
-    //     Tôi đã làm việc với nhiều đối tượng, từ sinh viên mới ra trường đến những người đã có kinh nghiệm. 
-    //     Mục tiêu của tôi là giúp bạn xác định và đạt được công việc mơ ước của mình. 
-    //     <strong>Tôi có thể giúp bạn:</strong>
-    //     <ul>
-    //         <li><strong>Xây dựng hồ sơ xin việc nổi bật:</strong> Hướng dẫn bạn cách tạo một hồ sơ xin việc thu hút và chuyên nghiệp.</li>
-    //         <li><strong>Chuẩn bị cho phỏng vấn:</strong> Giúp bạn nắm vững kỹ năng cần thiết để tự tin trong phỏng vấn và thể hiện tốt nhất.</li>
-    //         <li><strong>Định hướng nghề nghiệp:</strong> Tư vấn về các cơ hội nghề nghiệp và cách phát triển sự nghiệp bền vững.</li>
-    //     </ul>`,
-    //     reviews: [
-    //         { id: 1, name: "Nguyễn Văn Tuấn", comment: "Mentor Đức rất nhiệt tình và tận tâm trong buổi tư vấn.", rating: 5, date: "2 ngày trước" },
-    //         { id: 2, name: "Trần Thị Hà", comment: "Anh Đức đã giúp tôi cải thiện kỹ năng phỏng vấn.", rating: 4, date: "1 tuần trước" },
-    //         { id: 3, name: "Nguyễn Văn Dũng", comment: "Tư vấn của mentor rất chi tiết và chuyên nghiệp.", rating: 5, date: "2 tuần trước" },
-    //         { id: 4, name: "Phạm Văn An", comment: "Mentor Đức cung cấp nhiều giải pháp hiệu quả.", rating: 4, date: "3 tuần trước" },
-    //         { id: 5, name: "Lê Thị Hồng", comment: "Buổi tư vấn giúp tôi tự tin hơn khi nộp hồ sơ.", rating: 5, date: "1 tháng trước" },
-    //         { id: 6, name: "Nguyễn Văn Tú", comment: "Mentor chia sẻ nhiều kinh nghiệm về phát triển sự nghiệp.", rating: 5, date: "1 tháng trước" },
-    //         { id: 7, name: "Trần Vân", comment: "Tôi rất hài lòng với buổi tư vấn.", rating: 5, date: "1 tháng trước" },
-    //         { id: 8, name: "Lê Thị Phương", comment: "Mentor Đức giúp tôi nắm rõ hơn về quản lý dự án.", rating: 4, date: "2 tháng trước" },
-    //         { id: 9, name: "Nguyễn Văn Hùng", comment: "Tư vấn rất hữu ích, cảm ơn mentor.", rating: 5, date: "2 tháng trước" },
-    //         { id: 10, name: "Nguyễn Hữu Thắng", comment: "Mentor rất chu đáo và hỗ trợ nhiệt tình.", rating: 5, date: "2 tháng trước" }
-    //     ]
-    // }
+    {
+        id: 4,
+        name: "Lê Thị Ngọc",
+        image: "/CareerAdvise/LeThiNgoc.jpg",
+        career: "Career Consultant",
+        pricing: 450000,
+        badges: ["5 - 10 năm", "Market Research", "Strategic Planning", "Leadership"],
+        period: ["7:00AM", "10:00AM", "1:00PM", "4:00PM"],
+        about: `
+        Tôi là Lê Thị Ngọc, một tư vấn viên nghề nghiệp với hơn 6 năm kinh nghiệm trong việc giúp đỡ các bạn trẻ và những người đang tìm kiếm cơ hội nghề nghiệp. 
+        Tôi đã hỗ trợ nhiều người xây dựng sự nghiệp bền vững thông qua các chiến lược hiệu quả. 
+        Tôi tin rằng mỗi người đều có tiềm năng riêng và tôi ở đây để giúp bạn khai thác nó. 
+        <strong>Tôi có thể giúp bạn:</strong>
+        <ul>
+            <li><strong>Xác định mục tiêu nghề nghiệp:</strong> Giúp bạn khám phá và định hình những mục tiêu nghề nghiệp phù hợp với sở thích và kỹ năng của bạn.</li>
+            <li><strong>Chuẩn bị cho phỏng vấn:</strong> Hướng dẫn bạn cách thể hiện tốt nhất trong phỏng vấn, từ việc chuẩn bị hồ sơ đến cách giao tiếp tự tin.</li>
+            <li><strong>Xây dựng mạng lưới quan hệ:</strong> Tư vấn về cách tạo dựng và duy trì các mối quan hệ nghề nghiệp có giá trị.</li>
+        </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Văn Tuấn", comment: "Chị Ngọc rất nhiệt tình và hỗ trợ chu đáo trong buổi tư vấn.", rating: 5, date: "1 ngày trước" },
+            { id: 2, name: "Trần Thị Hà", comment: "Những lời khuyên của chị Ngọc giúp tôi rất nhiều trong việc xác định mục tiêu nghề nghiệp.", rating: 5, date: "3 ngày trước" },
+            { id: 3, name: "Nguyễn Văn Dũng", comment: "Mentor rất tận tình và chuyên nghiệp.", rating: 5, date: "5 ngày trước" },
+            { id: 4, name: "Phạm Văn An", comment: "Tư vấn của chị Ngọc mang lại nhiều giá trị cho sự nghiệp của tôi.", rating: 4, date: "1 tuần trước" },
+            { id: 5, name: "Lê Thị Hồng", comment: "Tôi đã học được rất nhiều về cách xây dựng mạng lưới quan hệ.", rating: 5, date: "2 tuần trước" },
+            { id: 6, name: "Nguyễn Văn Tú", comment: "Chị Ngọc giúp tôi tự tin hơn trong việc phát triển sự nghiệp.", rating: 5, date: "3 tuần trước" },
+            { id: 7, name: "Trần Vân", comment: "Buổi tư vấn rất hữu ích, cảm ơn chị Ngọc.", rating: 4, date: "4 tuần trước" },
+            { id: 8, name: "Lê Thị Phương", comment: "Mentor rất chu đáo và có kiến thức sâu rộng.", rating: 5, date: "1 tháng trước" },
+            { id: 9, name: "Nguyễn Văn Hùng", comment: "Chị Ngọc chia sẻ nhiều kinh nghiệm quý báu về phát triển sự nghiệp.", rating: 5, date: "1 tháng trước" }
+        ]
+    },
+    {
+        id: 5,
+        name: "Đỗ Minh Phương",
+        image: "/CareerAdvise/DoMinhPhuong.jpg",
+        career: "HR Consultant",
+        pricing: 500000,
+        badges: ["10+ năm", "Recruitment", "Negotiation", "Leadership"],
+        period: ["10:00AM", "1:00PM", "4:00PM", "7:00PM"],
+        about: `
+        Tôi là Đỗ Minh Phương, một tư vấn viên nhân sự với hơn 10 năm kinh nghiệm làm việc tại nhiều công ty lớn. 
+        Tôi chuyên về tuyển dụng và đàm phán, giúp các công ty xây dựng đội ngũ nhân sự chất lượng và hiệu quả. 
+        Tôi tin rằng nhân sự là tài sản quý giá nhất của một tổ chức và tôi ở đây để giúp bạn tìm kiếm và phát triển những tài năng này. 
+        <strong>Tôi có thể giúp bạn:</strong>
+        <ul>
+            <li><strong>Tuyển dụng hiệu quả:</strong> Hướng dẫn bạn về các phương pháp tuyển dụng tiên tiến để thu hút những ứng viên tốt nhất.</li>
+            <li><strong>Đàm phán lương và quyền lợi:</strong> Cung cấp những bí quyết để bạn có thể đàm phán một cách tự tin và hiệu quả.</li>
+            <li><strong>Phát triển kỹ năng lãnh đạo:</strong> Chia sẻ những kiến thức và kinh nghiệm trong việc lãnh đạo và phát triển đội ngũ.</li>
+        </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Văn Hải", comment: "Anh Phương có rất nhiều kinh nghiệm trong lĩnh vực nhân sự.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Trần Minh Quân", comment: "Buổi tư vấn giúp tôi hiểu rõ hơn về quy trình tuyển dụng.", rating: 5, date: "1 tuần trước" },
+            { id: 3, name: "Phạm Thị Hồng", comment: "Mentor rất tận tình và chuyên nghiệp.", rating: 4, date: "2 tuần trước" },
+            { id: 4, name: "Lê Văn Duy", comment: "Anh Phương đã giúp tôi phát triển kỹ năng đàm phán.", rating: 5, date: "3 tuần trước" },
+            { id: 5, name: "Nguyễn Thị Thu", comment: "Buổi tư vấn rất bổ ích, cảm ơn anh Phương.", rating: 5, date: "1 tháng trước" }
+        ]
+    },
+    {
+        id: 6,
+        name: "Ngô Văn Đức",
+        image: "/CareerAdvise/NgoVanDuc.jpg",
+        career: "Job Counselor",
+        pricing: 400000,
+        badges: ["3 - 5 năm", "Leadership", "Project Management", "Public Relations"],
+        period: ["8:00AM", "11:00AM", "2:00PM", "5:00PM"],
+        about: `
+        Tôi là Ngô Văn Đức, một tư vấn viên việc làm với 4 năm kinh nghiệm trong việc hỗ trợ các ứng viên tìm kiếm việc làm phù hợp. 
+        Tôi đã làm việc với nhiều đối tượng, từ sinh viên mới ra trường đến những người đã có kinh nghiệm. 
+        Mục tiêu của tôi là giúp bạn xác định và đạt được công việc mơ ước của mình. 
+        <strong>Tôi có thể giúp bạn:</strong>
+        <ul>
+            <li><strong>Xây dựng hồ sơ xin việc nổi bật:</strong> Hướng dẫn bạn cách tạo một hồ sơ xin việc thu hút và chuyên nghiệp.</li>
+            <li><strong>Chuẩn bị cho phỏng vấn:</strong> Giúp bạn nắm vững kỹ năng cần thiết để tự tin trong phỏng vấn và thể hiện tốt nhất.</li>
+            <li><strong>Định hướng nghề nghiệp:</strong> Tư vấn về các cơ hội nghề nghiệp và cách phát triển sự nghiệp bền vững.</li>
+        </ul>`,
+        reviews: [
+            { id: 1, name: "Nguyễn Văn Tuấn", comment: "Mentor Đức rất nhiệt tình và tận tâm trong buổi tư vấn.", rating: 5, date: "2 ngày trước" },
+            { id: 2, name: "Trần Thị Hà", comment: "Anh Đức đã giúp tôi cải thiện kỹ năng phỏng vấn.", rating: 4, date: "1 tuần trước" },
+            { id: 3, name: "Nguyễn Văn Dũng", comment: "Tư vấn của mentor rất chi tiết và chuyên nghiệp.", rating: 5, date: "2 tuần trước" },
+            { id: 4, name: "Phạm Văn An", comment: "Mentor Đức cung cấp nhiều giải pháp hiệu quả.", rating: 4, date: "3 tuần trước" },
+            { id: 5, name: "Lê Thị Hồng", comment: "Buổi tư vấn giúp tôi tự tin hơn khi nộp hồ sơ.", rating: 5, date: "1 tháng trước" },
+            { id: 6, name: "Nguyễn Văn Tú", comment: "Mentor chia sẻ nhiều kinh nghiệm về phát triển sự nghiệp.", rating: 5, date: "1 tháng trước" },
+            { id: 7, name: "Trần Vân", comment: "Tôi rất hài lòng với buổi tư vấn.", rating: 5, date: "1 tháng trước" },
+            { id: 8, name: "Lê Thị Phương", comment: "Mentor Đức giúp tôi nắm rõ hơn về quản lý dự án.", rating: 4, date: "2 tháng trước" },
+            { id: 9, name: "Nguyễn Văn Hùng", comment: "Tư vấn rất hữu ích, cảm ơn mentor.", rating: 5, date: "2 tháng trước" },
+            { id: 10, name: "Nguyễn Hữu Thắng", comment: "Mentor rất chu đáo và hỗ trợ nhiệt tình.", rating: 5, date: "2 tháng trước" }
+        ]
+    }
 ];

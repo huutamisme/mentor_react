@@ -10,12 +10,12 @@ export default function MainNavigation() {
     };
 
     return (
-        <nav>
-            <div className="container px-6 py-4 flex justify-between items-center bg-background text-customBlue shadow-lg">
+        <nav className="w-full bg-background shadow-lg">
+            <div className="container mx-auto px-6 py-4 flex justify-between items-center bg-background text-customBlue">
                 <div className="text-2xl md:text-4xl font-bold">MENTOR</div>
 
                 {/* Desktop menu */}
-                <ul className="font-semibold hidden lg:flex">
+                <ul className="font-semibold hidden lg:flex space-x-6">
                     {["Home", "About", "Services", "Help & Support"].map((item) => (
                         <li key={item}>
                             <NavLink
@@ -27,8 +27,7 @@ export default function MainNavigation() {
                                             : `/${item.toLowerCase()}`
                                 }
                                 className={({ isActive }) =>
-                                    ` btn btn-ghost text-2xl ${isActive ? 'underline' : ''
-                                    }`
+                                    `btn btn-ghost text-2xl ${isActive ? 'underline' : ''}`
                                 }
                             >
                                 {item}
@@ -38,7 +37,7 @@ export default function MainNavigation() {
                 </ul>
 
                 {/* Search input */}
-                <div className="relative">
+                <div className="relative hidden md:block">
                     <input
                         type="text"
                         placeholder="Search"
@@ -55,8 +54,7 @@ export default function MainNavigation() {
                     <NavLink to='/signup' className="btn text-white bg-secondary rounded-2xl">Sign up</NavLink>
                 </div>
 
-
-                {/* Hambuger button */}
+                {/* Hamburger button */}
                 <div className="lg:hidden">
                     <button
                         className="btn btn-ghost"
@@ -79,37 +77,34 @@ export default function MainNavigation() {
                         </svg>
                     </button>
                 </div>
-
-                {/* Mobile menu */}
-                {isMenuOpen && (
-                    <div className="navbar-menu lg:hidden absolute top-16 left-0 w-full bg-base-100 shadow-lg z-50">
-                        <ul className="space-y-2 font-semibold flex flex-col p-4">
-                            {["Home", "About", "Services", "Help & Support", "Login", "Signup"].map((item) => (
-                                <li key={item}>
-                                    <NavLink
-                                        to={
-                                            item === "Home"
-                                                ? '/'
-                                                : item === "Help & Support"
-                                                    ? '/support'
-                                                    : `/${item.toLowerCase()}`
-                                        }
-                                        className={({ isActive }) =>
-                                            `text-2xl btn btn-ghost ${isActive ? 'underline' : ''
-                                            }`
-                                        }
-                                        onClick={handleLinkClick}
-                                    >
-                                        {item}
-                                    </NavLink>
-                                </li>
-                            ))}
-                        </ul>
-                    </div>
-                )}
-
-
             </div>
+
+            {/* Mobile menu */}
+            {isMenuOpen && (
+                <div className="lg:hidden absolute top-16 left-0 w-full bg-base-100 shadow-lg z-50">
+                    <ul className="space-y-2 font-semibold flex flex-col p-4">
+                        {["Home", "About", "Services", "Help & Support", "Login", "Signup"].map((item) => (
+                            <li key={item}>
+                                <NavLink
+                                    to={
+                                        item === "Home"
+                                            ? '/'
+                                            : item === "Help & Support"
+                                                ? '/support'
+                                                : `/${item.toLowerCase()}`
+                                    }
+                                    className={({ isActive }) =>
+                                        `text-2xl btn btn-ghost ${isActive ? 'underline' : ''}`
+                                    }
+                                    onClick={handleLinkClick}
+                                >
+                                    {item}
+                                </NavLink>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+            )}
         </nav>
     );
 }
